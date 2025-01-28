@@ -1,5 +1,6 @@
 <?php
 require ("src/religousTime.php");
-$religousTime = new religousTime();
+use Mohammad\ReligiousTimes\ReligiousTimes;
+$religousTime = new ReligiousTimes();
 
 print_r($religousTime -> get_data("isfahan"));

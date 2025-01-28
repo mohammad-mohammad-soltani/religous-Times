@@ -1,7 +1,7 @@
 <?php
 namespace Mohammad\ReligiousTimes;
 libxml_use_internal_errors(true);
-class religousTime{
+class ReligiousTimes{
     public $dom;
     public $xpath;
     public function __construct() {
