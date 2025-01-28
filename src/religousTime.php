@@ -1,4 +1,5 @@
 <?php
+namespace Mohammad\ReligiousTimes;
 libxml_use_internal_errors(true);
 class religousTime{
     public $dom;

@@ -1,0 +1,23 @@
+{
+    "name": "mohammad/religious_times",
+    "description": "Web service to get religious times from Bahesab website.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohammad",
+            "email": "mypc264fm@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.4",
+        "ext-dom": "*",
+        "ext-libxml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mohammad\\ReligiousTimes\\": "src/"
+        }
+    }
+}
